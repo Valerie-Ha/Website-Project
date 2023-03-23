@@ -35,16 +35,20 @@ h1 {
     display: flex;
     font-size: 60px;
     color: #fff9f2;
-    margin-right: 10px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 8px;
 }
 
 h2 {
     display: flex;
-    flex-direction: column;
     font-size: 60px;
     color: #fff9f2;
     position: relative;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 
 
