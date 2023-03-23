@@ -81,8 +81,9 @@ h2 {
 .bio-pic {
     display: flex;
     position: relative;
-    width: 700px;
+    width: 800px;
     height: 200px;
+    border-radius: 8px;
     background-color: #fff9f2;
 
 }
