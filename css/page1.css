@@ -22,11 +22,17 @@ body {
     position: relative;
     background-color: #FFF9F2;
     border-radius: 5px;
-    padding: 10px 30px;
+    padding: 7px 20px;
     width: 100vw;
     margin-bottom: 10px;
-    align-items
+    align-items: center;
+    justify-content: center;
 }
+
+h1 {
+    font-size: 100px
+}
+
 
 .bio {
     background-color: #FFF9F2;
