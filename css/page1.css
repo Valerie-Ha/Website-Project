@@ -11,10 +11,11 @@ body {
 }
 
 .container {
-    justify-content: center;
+    align-items: center;
     display: flex;
     max-width: 100vh;
     margin: 20px;
+    flex-direction: column;
 }
 
 .banner {
