@@ -63,6 +63,8 @@ h2 {
     color: #fff9f2;
     margin-right: 30px;
     background-color: transparent;
+    position: relative;
+    cursor: pointer;
 }
 
 .bio {
