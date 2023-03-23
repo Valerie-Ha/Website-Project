@@ -3,12 +3,12 @@
 
 
 body {
-    background-color: #f01e6e;
     display: flex;
     margin: 0px;
     height: 100vh;
     overflow-x: hidden;
     justify-content: center;
+    background-color: #FFF9F2;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     font-family: 'Rubik', sans-serif;
     display: flex;
     position: relative;
-    background-color: #FFF9F2;
+    background-color: #f01e6e;
     border-radius: 5px;
     padding: 7px 20px;
     width: 100vw;
@@ -37,7 +37,7 @@ h1 {
 
 
 .bio {
-    background-color: #FFF9F2;
+    background-color: #f01e6e;
     display: flex;
     position: relative;
     width: 800px;
