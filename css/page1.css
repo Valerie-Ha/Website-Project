@@ -21,6 +21,10 @@ body {
 .banner {
     display: flex;
     position: relative;
+    background-color: #FFF9F2;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .bio {
