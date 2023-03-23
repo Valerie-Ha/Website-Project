@@ -13,4 +13,10 @@ body {
 .container {
     justify-content: center;
     display: flex;
+    max-width: 100vh;
+    margin: 20px;
+}
+
+.bio {
+    background-color: #f01e6e;
 }
