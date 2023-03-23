@@ -7,5 +7,10 @@ body {
     margin: 0;
     height: 100vh;
     overflow-x: hidden;
+    justify-content: center;
+}
 
+.container {
+    justify-content: center;
+    display: flex;
 }
