@@ -19,6 +19,7 @@ body {
 }
 
 .banner {
+    font-family: 'Rubik', sans-serif;
     display: flex;
     position: relative;
     background-color: #FFF9F2;
