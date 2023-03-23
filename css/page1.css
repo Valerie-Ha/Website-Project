@@ -19,14 +19,13 @@ body {
 
 .banner {
     display: flex;
-    position: absolute;
+    position: relative;
 }
 
 .bio {
     background-color: #FFF9F2;
     display: flex;
     position: relative;
-    flex-direction: row;
     width: 800px;
     height: 200px;
 }
