@@ -5,5 +5,7 @@
 body {
     background-color: #FFF9F2;
     display: flex;
+    margin: 0;
+    height: 100vh
 
 }
