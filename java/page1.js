@@ -1,4 +1,4 @@
-const instaTxt = document.querySelector('.instaTxt')
+httpconst instaTxt = document.querySelector('.instaTxt')
 const instaBtn = document.getElementById('insta')
 const tikTxt = document.querySelector('.tikTxt')
 const tikTokBtn = document.getElementById('tiktok')
