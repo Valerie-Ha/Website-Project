@@ -1,4 +1,4 @@
-httpconst instaTxt = document.querySelector('.instaTxt')
+const instaTxt = document.querySelector('.instaTxt')
 const instaBtn = document.getElementById('insta')
 const tikTxt = document.querySelector('.tikTxt')
 const tikTokBtn = document.getElementById('tiktok')
@@ -13,7 +13,7 @@ instaBtn.addEventListener('mouseout', () => {
 
 
 tikTokBtn.addEventListener('mouseover', () => {
-    tikTxt.style.width = "90px"
+    tikTxt.style.width = "80px"
 })
 tikTokBtn.addEventListener('mouseout', () => {
     tikTxt.style.width = "0px"

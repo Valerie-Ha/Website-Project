@@ -62,7 +62,6 @@ h1 {
     background-color: transparent;
     position: relative;
     cursor: pointer;
-    padding: 0 5px;
     transition: 1s ease;
     display: flex;
     align-items: center;
@@ -79,16 +78,13 @@ h1 {
 }
 
 .tikTxt {
-    margin-left: 4px;
+    margin-left: 3px;
     width: 0px;
     opacity: 1;
     overflow: hidden;
     transition: width .3s ease;
 }
 
-.tikTxt:hover {
-    width: 90px;
-}
 
 .pg-btns {
     display: flex;
