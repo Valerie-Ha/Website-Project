@@ -87,7 +87,7 @@ h1 {
 }
 
 .tikTxt:hover {
-    transform: width 90px;
+    width: 90px;
 }
 
 .pg-btns {
