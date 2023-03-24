@@ -87,6 +87,23 @@ h1 {
     transition: width .3s ease;
 }
 
+.youTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 4px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
+
+.twitchTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 4px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
 
 .pg-btns {
     display: flex;
