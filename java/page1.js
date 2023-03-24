@@ -7,6 +7,9 @@ const tikTokBtn = document.getElementById('tiktok')
 const youTxt = document.querySelector('.youTxt')
 const youBtn = document.getElementById('youtube')
 
+const twitchTxt = document.querySelector('.twitchTxt')
+const twitchBtn = document.getElementById('twitch')
+
 instaBtn.addEventListener('mouseover', () => {
     instaTxt.style.width = "90px"
 })
@@ -29,4 +32,11 @@ youBtn.addEventListener('mouseover', () => {
 })
 youBtn.addEventListener('mouseout', () => {
     youTxt.style.width = "0px"
+})
+
+twitchBtn.addEventListener('mouseover', () => {
+    twitchTxt.style.width = "80px"
+})
+twitchBtn.addEventListener('mouseout', () => {
+    twitchTxt.style.width = "0px"
 })
