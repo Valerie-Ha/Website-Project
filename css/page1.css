@@ -18,6 +18,28 @@ body {
     flex-direction: column;
 }
 
+.nav-container {
+    background-color: #1fbcff;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    left: -3px;
+    z-index: 5;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3 {
+    position: absolute;
+    border: 0;
+    font-size: 20px;
+    top: 15%;
+    left: 20%;
+    background-color: #1fbcff;
+    color: #f01e6e;
+}
 .banner {
     font-family: 'Rubik', sans-serif;
     display: flex;
@@ -80,7 +102,7 @@ h1 {
 
 .tikTxt {
     font-family: 'Inconsolata', monospace;
-    margin-left: 3px;
+    margin-left: 2px;
     width: 0px;
     opacity: 1;
     overflow: hidden;
