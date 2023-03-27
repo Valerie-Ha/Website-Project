@@ -206,7 +206,7 @@ h2 {
 
 .bio-container {
     width: 100vw;
-    height: 400px;
+    height: auto;
     padding: 20px;
     margin-top: 100px;
     display: flex;
@@ -227,8 +227,8 @@ h2 {
 
 .gif {
     display: flex;
-    width: 1000px;
-    height: 2000px;
+    width: auto;
+    height: 600px;
     position: relative;
 
 }
