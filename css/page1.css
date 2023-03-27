@@ -208,7 +208,7 @@ h2 {
     width: 100vw;
     height: auto;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -231,8 +231,8 @@ h2 {
     height: 550px;
     position: absolute;
     z-index: -1;
-    left: 650px;
-    top: 140px;
+    left: 670px;
+    top: 120px;
 
 }
 
