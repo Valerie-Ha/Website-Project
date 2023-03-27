@@ -30,7 +30,7 @@ body {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    transition: transform .5s ease;
+    transition: transform .6s ease;
 }
 
 .nav-bar {
@@ -41,7 +41,7 @@ body {
     top: 0px;
     left: -220px;
     z-index: 2;
-    transition: transform .5s ease;
+    transition: transform .6s ease;
 }
 
 .nav-bar.show-nav
