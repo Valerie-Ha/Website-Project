@@ -36,7 +36,9 @@ body {
     background-color: #1fbcff;
     height: 100vh;
     position: absolute;
-    
+    width: 100px;
+    top: 100px;
+    left: -3px;
 }
 .btn3 {
     position: absolute;
