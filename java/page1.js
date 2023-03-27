@@ -54,10 +54,10 @@ open.addEventListener('click', () => {
 })
 
 
-open.addEventListener('click', () => {
-    open.style.display = "none"
-    close.style.display = "block"
-    navBar.classList.add('show-nav')
-    navContainer.classList.add('show-nav')
+close.addEventListener('click', () => {
+    open.style.display = "block"
+    close.style.display = "none"
+    navBar.classList.remove('show-nav')
+    navContainer.classList.remove('show-nav')
 
 })
