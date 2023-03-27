@@ -33,7 +33,10 @@ body {
 }
 
 .nav-bar {
-    background-color
+    background-color: #1fbcff;
+    height: 100vh;
+    position: absolute;
+    
 }
 .btn3 {
     position: absolute;
