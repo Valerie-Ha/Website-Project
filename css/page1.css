@@ -195,7 +195,7 @@ h1 {
 
 h2 {
     position: relative;
-    font-size: 70px;
+    font-size: 72px;
     display: flex;
     font-family: 'Tiro Devanagari Hindi', serif;
     opacity: .5;
@@ -239,7 +239,7 @@ h2 {
 p1 {
     font-family: 'Inconsolata', monospace;
     padding: 10px;
-    font-size: 22px;
+    font-size: 24px;
     color: #fff9f2;
     display: flex;
     position: relative;
