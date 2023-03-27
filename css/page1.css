@@ -62,6 +62,10 @@ body {
     align-items: center;
 }
 
+.doodle-duck {
+    width: 50px
+}
+
 .vert {
     display: flex;
     position: relative;
@@ -146,8 +150,6 @@ h1 {
     flex-direction: row;
     margin-left: 30px;
     max-height: 40px;
-
-
 }
 
 .btn2 {
