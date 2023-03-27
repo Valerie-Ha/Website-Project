@@ -228,10 +228,10 @@ h2 {
 .gif {
     display: flex;
     width: auto;
-    height: 600px;
+    height: 550px;
     position: absolute;
     z-index: -1;
-    left: 600px;
+    left: 650px;
     top: 140px;
 
 }
