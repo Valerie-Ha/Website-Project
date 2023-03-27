@@ -60,6 +60,7 @@ body {
     position: relative;
     background-color: #f01e6e;
     width: 100vw;
+    height: auto;
     align-items: center;
     flex-direction: row;
 }
@@ -67,10 +68,9 @@ body {
 .doodle-duck {
     position: relative;
     display:flex;
-    width: 90px;
-    height: 60px;
+    width: auto;
+    height: 70px;
     margin-left: 20px;
-    background-image: url('https://lh3.googleusercontent.com/IULWFeVmyibjxRIYTeD8nPw3RFZmVjS1-lRPnIUEuMWp_oxGvuunQjt9SgWeAt3uzypeafFyxDPOYpVii3iVHKdq6XmArlGNGCnARwXlZEiW8SNfIX9kPLM1eeVConsR32SXtH9S=w600-h315-p-k');
     background-size: cover;
     background-position: no-repeat;
     background-repeat: no-repeat;
@@ -95,6 +95,7 @@ h1 {
 
 .socials {
     display: flex;
+    height: auto;
     flex-basis: 0;
     font-size: 20px;
     border: 0;
