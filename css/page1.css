@@ -30,6 +30,7 @@ body {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    transition: transform .5s ease;
 }
 
 .nav-bar {
@@ -45,9 +46,14 @@ body {
 
 .nav-bar.active
 {
-    transform: translateY(220px)
-
+    transform: translateX(220px)
 }
+
+.nav-container.active
+{
+    transform: translateX(219px)
+}
+
 .btn3 {
     position: absolute;
     border: 0;
