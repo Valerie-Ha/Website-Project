@@ -60,7 +60,6 @@ body {
     position: relative;
     background-color: #f01e6e;
     width: 100vw;
-    height: auto;
     align-items: center;
     flex-direction: row;
 }
