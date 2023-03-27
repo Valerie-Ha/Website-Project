@@ -50,5 +50,12 @@ open.addEventListener('click', () => {
     open.style.display = "none"
     close.style.display = "block"
     navBar.classList.add('active')
-    navContainer.classList.add
+    navContainer.classList.add('sctive')
+})
+
+close.addEventListener('click', () => {
+    open.style.display = "block"
+    close.style.display = "none"
+    navBar.classList.remove('active')
+    navContainer.classList.remove('sctive')
 })
