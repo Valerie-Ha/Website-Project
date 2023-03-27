@@ -65,7 +65,7 @@ body {
     flex-direction: row;
 }
 
-.doodle-duck {
+.doodle-duck-container {
     position: relative;
     display:flex;
     width: auto;
