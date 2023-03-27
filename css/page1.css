@@ -63,9 +63,12 @@ body {
 }
 
 .doodle-duck {
-    width: 50px;
-    height: 50px;
-    background-image: 
+    width: 100px;
+    height: 100px;
+    background-image: url('https://lh3.googleusercontent.com/IULWFeVmyibjxRIYTeD8nPw3RFZmVjS1-lRPnIUEuMWp_oxGvuunQjt9SgWeAt3uzypeafFyxDPOYpVii3iVHKdq6XmArlGNGCnARwXlZEiW8SNfIX9kPLM1eeVConsR32SXtH9S=w600-h315-p-k');
+    background-size: cover;
+    background-position: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .vert {
