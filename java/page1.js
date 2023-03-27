@@ -42,4 +42,7 @@ twitchBtn.addEventListener('mouseout', () => {
 
 const open = document.getElementById('open')
 const close = document.getElementById('close')
-const navbar = document.querySelector('.nav-bar')
+const navBar = document.querySelector('.nav-bar')
+const navContainer - document.querySelector('.nav-container')
+
+open.addEventListener{}
