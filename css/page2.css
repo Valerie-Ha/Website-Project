@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+body {
+    display: flex;
+    margin: 0px;
+    height: auto;
+    overflow-x: hidden;
+    justify-content: center;
+    background-color: #22181c;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    max-width: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav-container {
+    background-color: #1fbcff;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 100px;
+    left: -3px;
+    z-index: 5;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: transform .6s ease;
+}
+
+.nav-bar {
+    background-color: #1fbcff;
+    height: 100vh;
+    position: absolute;
+    width: 220px;
+    top: 0px;
+    left: -220px;
+    z-index: 2;
+    transition: transform .6s ease;
+}
+
+.nav-bar.show-nav
+{
+    transform: translateX(220px)
+}
+
+.nav-container.show-nav
+{
+    transform: translateX(219px)
+}
+
+.btn3 {
+    position: absolute;
+    border: 0;
+    font-size: 20px;
+    background-color: #1fbcff;
+    color: #f01e6e;
+    cursor: pointer;
+}
+
+#open {
+    display: block;
+    top: 15%;
+    left: 15%;
+}
+
+#close {
+    display: none;
+    top: 15%;
+    left: 18%;
+}
+
+
+.banner {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    position: relative;
+    background-color: #f01e6e;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+.doodle-duck {
+    position: relative;
+    display:flex;
+    width: 100px;
+    height: auto;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.vert {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    font-size: 30px;
+    color: #fff9f2;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+
+.socials {
+    display: flex;
+    height: auto;
+    flex-basis: 0;
+    font-size: 20px;
+    border: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.btn {
+    font-size: 20px;
+    border: 0;
+    color: #fff9f2;
+    margin-right: 25px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.instaTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 3px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
+
+.tikTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 2px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
+
+.youTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 4px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
+
+.twitchTxt {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 4px;
+    width: 0px;
+    opacity: 1;
+    overflow: hidden;
+    transition: width .3s ease;
+}
