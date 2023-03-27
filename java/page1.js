@@ -13,6 +13,7 @@ const twitchBtn = document.getElementById('twitch')
 const open = document.getElementById('open')
 const close = document.getElementById('close')
 const navBar = document.querySelector('.nav-bar')
+const navContainer = document.querySelector('.nav-container')
 
 
 instaBtn.addEventListener('mouseover', () => {
@@ -44,5 +45,9 @@ twitchBtn.addEventListener('mouseout', () => {
     twitchTxt.style.width = "0px"
 })
 
+open.addEventListener('click', () => {
+    open.style.display = "none"
+    navBar.classList.add('')
 
+})
 
