@@ -17,8 +17,6 @@ instaBtn.addEventListener('mouseout', () => {
     instaTxt.style.width = "0px"
 })
 
-
-
 tikTokBtn.addEventListener('mouseover', () => {
     tikTxt.style.width = "80px"
 })
@@ -40,3 +38,5 @@ twitchBtn.addEventListener('mouseover', () => {
 twitchBtn.addEventListener('mouseout', () => {
     twitchTxt.style.width = "0px"
 })
+
+
