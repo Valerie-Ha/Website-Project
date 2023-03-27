@@ -44,12 +44,12 @@ body {
     transition: transform .5s ease;
 }
 
-.nav-bar.active
+.nav-bar.show-nav
 {
     transform: translateX(220px)
 }
 
-.nav-container.active
+.nav-container.show-nav
 {
     transform: translateX(219px)
 }
