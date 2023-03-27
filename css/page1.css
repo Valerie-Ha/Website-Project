@@ -40,6 +40,12 @@ body {
     background-color: #1fbcff;
     color: #f01e6e;
 }
+
+#open {
+    index: 1;
+}
+
+
 .banner {
     font-family: 'Rubik', sans-serif;
     display: flex;
