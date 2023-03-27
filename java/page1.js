@@ -12,7 +12,7 @@ const twitchBtn = document.getElementById('twitch')
 
 const open = document.getElementById('open')
 const close = document.getElementById('close')
-const navBar = document.querySelector()
+const navBar = document.querySelector('.nav-bar')
 
 
 instaBtn.addEventListener('mouseover', () => {
