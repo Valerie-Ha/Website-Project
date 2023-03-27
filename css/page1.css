@@ -194,8 +194,11 @@ h2 {
 
 .bio-container {
     width: 100vw;
-    height: 200px;
-
+    height: 400px;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -205,11 +208,13 @@ h2 {
     width: 40vw;
     height: 200px;
     border-radius: 8px;
-    margin-top: 100px;
     justify-content: center;
     flex-direction: column;
 }
 
+.gif {
+    background-color: white;
+}
 
 p1 {
     font-family: 'Inconsolata', monospace;
