@@ -48,5 +48,6 @@ twitchBtn.addEventListener('mouseout', () => {
 
 openBtn.addEventListener('click', () => {
     openBtn.style.display = "none"
-    .classList.add('active')
+    navContainer.classList.add('active')
+    navBar.classList.add('active')
 })
