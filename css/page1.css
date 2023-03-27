@@ -192,6 +192,12 @@ h2 {
     margin-bottom: 8px;
 }
 
+.bio-container {
+    width: 100vw;
+    height: 200px;
+
+}
+
 
 .bio {
     display: flex;
