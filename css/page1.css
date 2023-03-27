@@ -35,14 +35,21 @@ body {
     position: absolute;
     border: 0;
     font-size: 20px;
-    top: 15%;
-    left: 20%;
     background-color: #1fbcff;
     color: #f01e6e;
+    cursor: pointer;
 }
 
 #open {
-    index: 1;
+    display: block;
+    top: 15%;
+    left: 15%;
+}
+
+#close {
+    display: none;
+    top: 15%;
+    left: 18%;
 }
 
 
