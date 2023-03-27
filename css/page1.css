@@ -68,12 +68,11 @@ body {
 .doodle-duck {
     position: relative;
     display:flex;
-    width: 90px;
+    width: 100px;
     height: auto;
-    margin-left: 20px;
-    background-size: cover;
-    background-position: no-repeat;
-    background-repeat: no-repeat;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .vert {
