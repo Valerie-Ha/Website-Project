@@ -227,9 +227,8 @@ h2 {
 
 .gif {
     display: flex;
-    background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: auto;
     margin-left: 250px;
     position: relative;
 
