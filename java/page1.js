@@ -10,7 +10,7 @@ const youBtn = document.getElementById('youtube')
 const twitchTxt = document.querySelector('.twitchTxt')
 const twitchBtn = document.getElementById('twitch')
 
-const openBtn = document.getElementById('open')
+const open = document.getElementById('open')
 const close = document.getElementById('close')
 const navBar = document.querySelector('.nav-bar')
 const navContainer - document.querySelector('.nav-container')
@@ -46,10 +46,6 @@ twitchBtn.addEventListener('mouseout', () => {
 })
 
 
-openBtn.addEventListener('click', () => {
-    navBar.classList.add('active')
-})
-
-openBtn.addEventListener('click', () => {
-    navContainer.classList.add('active')
+open.addEventListener('click', () => {
+    open.style.display = "none"
 })
