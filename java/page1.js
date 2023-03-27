@@ -10,6 +10,12 @@ const youBtn = document.getElementById('youtube')
 const twitchTxt = document.querySelector('.twitchTxt')
 const twitchBtn = document.getElementById('twitch')
 
+const openBtn = document.getElementById('open')
+const closeBtn = document.getElementById('close')
+const navBar = document.querySelector('.nav-bar')
+const navContainer - document.querySelector('.nav-container')
+
+
 instaBtn.addEventListener('mouseover', () => {
     instaTxt.style.width = "90px"
 })
@@ -39,11 +45,6 @@ twitchBtn.addEventListener('mouseout', () => {
     twitchTxt.style.width = "0px"
 })
 
-
-const openBtn = document.getElementById('open')
-const closeBtn = document.getElementById('close')
-const navBar = document.querySelector('.nav-bar')
-const navContainer - document.querySelector('.nav-container')
 
 openBtn.addEventListener('click', () => {
     openBtn.style.display = none
