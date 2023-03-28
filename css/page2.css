@@ -191,9 +191,9 @@ h1 {
 
 h3 {
     position: absolute;
-    font-size: 70px;
+    font-size: 80px;
     color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1fbcff;
 
 }
