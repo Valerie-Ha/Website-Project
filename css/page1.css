@@ -8,7 +8,7 @@ body {
     height: auto;
     overflow-x: hidden;
     justify-content: center;
-    background-color: #22181c;
+    background-color: #201A1C;
 }
 
 .container {
@@ -255,7 +255,7 @@ h2 {
     z-index: -1;
     left: 670px;
     top: 120px;
-    background-color: transparent;
+    background-color: #22181c;
 
 }
 
