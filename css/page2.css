@@ -84,6 +84,7 @@ body {
     height: auto;
     align-items: center;
     flex-direction: row;
+
 }
 
 .doodle-duck {
@@ -175,7 +176,20 @@ h1 {
     transition: width .3s ease;
 }
 
+.title-container {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    position: absolute;
+    background-color: #f01e6e;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 h3 {
     position: absolute;
-    size: 40px;
+    font-size: 70px;
 }
