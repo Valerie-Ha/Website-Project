@@ -202,9 +202,12 @@ h3 {
     margin: 20px;
     background-color: green;
     height: auto;
+    flex-direction: column;
 }
 
 h4 {
+    position: relative;
+    display: flex;
     font-size: 40px;
     color: white;
     font-family: 'Tiro Devanagari Hindi', serif;
