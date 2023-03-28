@@ -174,3 +174,8 @@ h1 {
     overflow: hidden;
     transition: width .3s ease;
 }
+
+h3 {
+    position: absolute;
+    
+}
