@@ -202,7 +202,8 @@ h3 {
     margin: 20px;
     height: auto;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 80px;
+    align-items: center;
 }
 
 h4 {
