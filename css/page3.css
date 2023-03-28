@@ -200,15 +200,19 @@ h3 {
     display: flex;
     width: 90vw;
     margin: 20px;
-    background-color: green;
     height: auto;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 h4 {
     position: relative;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-family: 'Tiro Devanagari Hindi', serif;
+    opacity: .5;
+    color: #fff9f2;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
 }
