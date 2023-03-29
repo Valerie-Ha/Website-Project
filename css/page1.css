@@ -271,7 +271,7 @@ p1 {
 .work {
     display: flex;
     position: relative;
-    width: 90vw;
+    width: 96vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
@@ -306,7 +306,7 @@ p1 {
     flex-direction: row;
     display: flex;
     position: relative;
-    width: 90vw;
+    width: 96vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
