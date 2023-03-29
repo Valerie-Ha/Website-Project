@@ -272,5 +272,15 @@ p1 {
     display: flex;
     position: relative;
     margin: 20px;
-    
+    width: 90vw;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    width: 100px;
+    height: auto;
+    display: flex;
 }
