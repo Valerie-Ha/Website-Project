@@ -222,12 +222,14 @@ p2 {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
     margin-bottom: 5px;
+    text-indent: 40px;
 }
 
 p3 {
     color: #fff9f2;
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
+    text-indent: 40px;
 }
 
 /* ===== Scrollbar CSS ===== */
