@@ -219,8 +219,11 @@ h4 {
 }
 
 p2 {
-    color: 
+    color: #fff9f2;
+    font-family: 'Inconsolata', monospace;
+
 }
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
