@@ -280,3 +280,13 @@ p2 {
     display: flex;
 
   }
+
+  .bio-container {
+    position: relative;
+    display: flex;
+    width: 90vw;
+    margin: 20px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 10px;
+}
