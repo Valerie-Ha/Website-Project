@@ -267,3 +267,10 @@ p1 {
     position: relative;
     margin-top: 0px;
 }
+
+.work {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    
+}
