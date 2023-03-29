@@ -336,7 +336,7 @@ p1 {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #f01e6e #1fbcff;
+    scrollbar-color: #1fbcff #ff1fa1;
   }
 
   /* Chrome, Edge, and Safari */
@@ -345,11 +345,11 @@ p1 {
   }
 
   *::-webkit-scrollbar-track {
-    background: #1fbcff;
+    background: #ff1fa1;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #f01e6e;
+    background-color: #1fbcff;
     border-radius: 10px;
     border: 5px double #fff9f2;
   }
