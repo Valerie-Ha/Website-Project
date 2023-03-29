@@ -58,7 +58,7 @@ body {
     position: absolute;
     border: 0;
     font-size: 20px;
-    background-color: #1fbcff;#1fbcff
+    background-color: #1fbcff;
     color: #f01e6e;
     cursor: pointer;
 }
@@ -331,3 +331,25 @@ p1 {
     height: 412px;
     display: flex;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #f01e6e #1fbcff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 18px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1fbcff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f01e6e;
+    border-radius: 10px;
+    border: 5px double #fff9f2;
+  }
