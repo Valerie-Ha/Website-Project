@@ -282,13 +282,13 @@ p1 {
 
 .pic {
     width: auto;
-    height: 317px;
+    height: 316px;
     display: flex;
 }
 
 .pic-tall {
     width: auto;
-    height: 332px;
+    height: 331px;
     display: flex;
 }
 
@@ -328,6 +328,6 @@ p1 {
 
 .pic-tall2 {
     width: auto;
-    height: 413px;
+    height: 412px;
     display: flex;
 }
