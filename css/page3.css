@@ -212,7 +212,7 @@ h4 {
     font-size: 30px;
     color: white;
     font-family: 'Tiro Devanagari Hindi', serif;
-    color: #fcf803;
+    color: #1fbcff;
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
@@ -249,4 +249,26 @@ p2 {
     color: #fff9f2;
     font-family: 'Inconsolata', monospace;
     font-size: 23px;
+  }
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #1fbcff #f01e6e;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f01e6e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1fbcff;
+    border-radius: 10px;
+    border: 5px double #fff9f2;
   }
