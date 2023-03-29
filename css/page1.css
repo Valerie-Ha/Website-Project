@@ -269,9 +269,10 @@ p1 {
 }
 
 .work {
+    margin-top: 230px;
     display: flex;
     position: relative;
-    width: 96vw;
+    width: 94vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
