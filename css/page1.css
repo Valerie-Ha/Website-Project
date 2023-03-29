@@ -280,8 +280,8 @@ p1 {
 }
 
 .pic {
-    width: auto;
-    height: 160px;
+    width: 30vw;
+    height: auto;
     display: flex;
 }
 
