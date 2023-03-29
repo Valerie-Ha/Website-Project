@@ -272,7 +272,7 @@ p1 {
     margin-top: 230px;
     display: flex;
     position: relative;
-    width: 94vw;
+    width: 93vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
@@ -282,13 +282,13 @@ p1 {
 
 .pic {
     width: auto;
-    height: 318px;
+    height: 317px;
     display: flex;
 }
 
 .pic-tall {
     width: auto;
-    height: 334px;
+    height: 332px;
     display: flex;
 }
 
@@ -328,6 +328,6 @@ p1 {
 
 .pic-tall2 {
     width: auto;
-    height: 414px;
+    height: 413px;
     display: flex;
 }
