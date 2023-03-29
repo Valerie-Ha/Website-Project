@@ -284,12 +284,17 @@ p1 {
     height: 300px;
     display: flex;
 }
+.pic-tall {
+    width: auto;
+    height: 350px;
+    display: flex;
+}
 
 .set1 {
     flex-direction: row;
     display: flex;
     position: relative;
-    width: 90vw;
+    width: 96vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
