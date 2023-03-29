@@ -276,10 +276,35 @@ p1 {
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .pic {
     width: auto;
     height: 160px;
     display: flex;
+}
+
+.set1 {
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    width: 90vw;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.set2 {
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    width: 90vw;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
 }
