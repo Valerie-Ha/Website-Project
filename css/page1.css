@@ -341,7 +341,7 @@ p1 {
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 18px;
+    width: 17px;
   }
 
   *::-webkit-scrollbar-track {
