@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Roboto+Mono&display=swap');
 
 body {
     display: flex;
@@ -219,7 +220,7 @@ h4 {
 
 p2 {
     color: #fff9f2;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-bottom: 5px;
     text-indent: 40px;
@@ -227,7 +228,7 @@ p2 {
 
 p3 {
     color: #fff9f2;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-indent: 40px;
 }
