@@ -300,7 +300,6 @@ p1 {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-
 }
 
 .set2 {
@@ -313,4 +312,15 @@ p1 {
     justify-content: center;
     align-items: center;
 
+}
+
+.set3 {
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    width: 96vw;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
