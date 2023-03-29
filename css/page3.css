@@ -223,6 +223,12 @@ p2 {
     font-size: 20px;
 }
 
+p3 {
+    color: #fff9f2;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -275,9 +281,10 @@ p2 {
 
   .auto-bio {
     position: relative;
-    width: 40vw;
+    width: 50vw;
     height: auto;
     display: flex;
+    flex-direction: column;
 
   }
 
