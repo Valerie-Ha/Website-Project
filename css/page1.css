@@ -270,7 +270,7 @@ p1 {
 
 .work {
     display: flex;
-    position: absolute;
+    position: relative;
     width: 90vw;
     height: auto;
     overflow: hidden;
