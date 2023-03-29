@@ -331,25 +331,3 @@ p1 {
     height: 412px;
     display: flex;
 }
-
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #1fbcff #f01e6e;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 17px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #f01e6e;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #1fbcff;
-    border-radius: 10px;
-    border: 5px double #fcf303;
-  }
