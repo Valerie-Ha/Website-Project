@@ -285,6 +285,7 @@ p1 {
     height: 315px;
     display: flex;
 }
+
 .pic-tall {
     width: auto;
     height: 330px;
@@ -323,4 +324,10 @@ p1 {
     overflow: hidden;
     justify-content: center;
     align-items: center;
+}
+
+.pic-tall2 {
+    width: auto;
+    height: 350px;
+    display: flex;
 }
