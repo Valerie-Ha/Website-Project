@@ -281,7 +281,7 @@ p1 {
 
 .pic {
     width: auto;
-    height: 300px;
+    height: 315px;
     display: flex;
 }
 .pic-tall {
@@ -306,7 +306,7 @@ p1 {
     flex-direction: row;
     display: flex;
     position: relative;
-    width: 96vw;
+    width: 9vw;
     height: auto;
     overflow: hidden;
     justify-content: center;
