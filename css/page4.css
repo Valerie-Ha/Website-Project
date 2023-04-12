@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@300&family=Montserrat&family=Roboto+Mono&display=swap');
 
 body {
     display: flex;
@@ -195,6 +196,20 @@ h3 {
     color: white;
 }
 
+
+
+h4 {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -217,6 +232,40 @@ h3 {
     border: 5px double #fff9f2;
   }
 
+  p {
+    color: #fcf803;
+    font-family: 'Inconsolata', monospace;
+    font-size: 23px;
+  }
 
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #1fbcff #f01e6e;
+  }
 
-  .headshot
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f01e6e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1fbcff;
+    border-radius: 10px;
+    border: 5px double #fff9f2;
+  }
+
+.promos {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    top: 100px;
+}

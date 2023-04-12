@@ -19,6 +19,12 @@ body {
     margin: 0;
 }
 
+.nav-pic {
+    position: relative;
+    display: flex;
+    width: 220px;
+    height: auto;
+}
 .nav-container {
     background-color: #1fbcff;
     width: 40px;
@@ -42,6 +48,37 @@ body {
     left: -220px;
     z-index: 2;
     transition: transform .6s ease;
+    justify-content: center;
+}
+
+.links {
+    font-family: 'Lato', sans-serif;
+    bottom: 200px;
+    position: absolute;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    right: 20px;
+    bottom: 50px;
+}
+
+.link {
+    position: relative;
+    margin-bottom: 50px;
+    display:flex;
+    color: #201A1C;
+    padding: 5px;
+
+}
+
+.text {
+    margin-left: 5px;
+    color: #fff9f2;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .nav-bar.show-nav
