@@ -49,6 +49,7 @@ body {
     z-index: 2;
     transition: transform .6s ease;
     justify-content: center;
+    align-items: center;
 }
 
 .links {
@@ -90,10 +91,11 @@ nav a {
 {
     transform: translateX(219px)
 }
-.
 
-.h5 {
 
+h5 {
+    position: relative;
+    
 }
 
 .btn3 {
