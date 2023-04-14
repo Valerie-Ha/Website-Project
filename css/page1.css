@@ -44,6 +44,36 @@ body {
     transition: transform .6s ease;
 }
 
+.links {
+    font-family: 'Lato', sans-serif;
+    bottom: 200px;
+    position: absolute;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    right: 20px;
+    bottom: 50px;
+}
+
+.link {
+    position: relative;
+    margin-bottom: 50px;
+    display:flex;
+    color: #201A1C;
+    padding: 5px;
+
+}
+
+.text {
+    margin-left: 5px;
+    color: #fff9f2;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 .nav-bar.show-nav
 {
     transform: translateX(220px)
@@ -52,6 +82,15 @@ body {
 .nav-container.show-nav
 {
     transform: translateX(219px)
+}
+
+
+h5 {
+    position: absolute;
+    left: 26px;
+    font-size: 27px;
+    top: 150px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .btn3 {
