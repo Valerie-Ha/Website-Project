@@ -18,13 +18,6 @@ body {
     margin: 0;
 }
 
-.nav-pic {
-    position: relative;
-    display: flex;
-    width: 220px;
-    height: auto;
-}
-
 .nav-container {
     background-color: #1fbcff;
     width: 40px;
@@ -48,8 +41,6 @@ body {
     left: -220px;
     z-index: 2;
     transition: transform .6s ease;
-    justify-content: center;
-    align-items: center;
 }
 
 .links {
@@ -101,25 +92,11 @@ h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-.btn3 {
-    position: absolute;
-    border: 0;
-    font-size: 20px;
-    background-color: #1fbcff;
-    color: #f01e6e;
-    cursor: pointer;
-}
-
-#open {
-    display: block;
-    top: 15%;
-    left: 15%;
-}
-
-#close {
-    display: none;
-    top: 15%;
-    left: 18%;
+.nav-pic {
+    position: relative;
+    display: flex;
+    width: 220px;
+    height: auto;
 }
 
 
