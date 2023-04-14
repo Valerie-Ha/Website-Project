@@ -43,40 +43,6 @@ body {
     transition: transform .6s ease;
 }
 
-.nav-pic {
-    position: relative;
-    display: flex;
-    width: 220px;
-    height: auto;
-}
-
-.nav-container {
-    background-color: #1fbcff;
-    width: 40px;
-    height: 35px;
-    position: fixed;
-    top: 100px;
-    left: -3px;
-    z-index: 5;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    transition: transform .6s ease;
-}
-
-.nav-bar {
-    background-color: #1fbcff;
-    height: 100vh;
-    position: fixed;
-    width: 220px;
-    top: 0px;
-    left: -220px;
-    z-index: 2;
-    transition: transform .6s ease;
-    justify-content: center;
-    align-items: center;
-}
-
 .links {
     font-family: 'Lato', sans-serif;
     bottom: 200px;
