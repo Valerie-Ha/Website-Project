@@ -93,6 +93,13 @@ h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.nav-pic {
+    position: relative;
+    display: flex;
+    width: 220px;
+    height: auto;
+}
+
 .btn3 {
     position: absolute;
     border: 0;
