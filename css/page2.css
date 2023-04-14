@@ -18,11 +18,18 @@ body {
     margin: 0;
 }
 
+.nav-pic {
+    position: relative;
+    display: flex;
+    width: 220px;
+    height: auto;
+}
+
 .nav-container {
     background-color: #1fbcff;
     width: 40px;
     height: 35px;
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: -3px;
     z-index: 5;
@@ -35,12 +42,14 @@ body {
 .nav-bar {
     background-color: #1fbcff;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     width: 220px;
     top: 0px;
     left: -220px;
     z-index: 2;
     transition: transform .6s ease;
+    justify-content: center;
+    align-items: center;
 }
 
 .links {
@@ -256,6 +265,3 @@ h3 {
     border: 5px double #fff9f2;
   }
 
-
-
-  .headshot
