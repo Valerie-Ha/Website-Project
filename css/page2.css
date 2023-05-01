@@ -63,8 +63,8 @@ body {
 
 .links {
     font-family: 'Lato', sans-serif;
-    bottom: 200px;
-    position: relative;
+    bottom: 30vh;
+    position: absolute;
     font-size: 26px;
     display: flex;
     flex-direction: column;
@@ -104,10 +104,11 @@ nav a {
 
 
 h5 {
-    position: relative;
+    position: absolute;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     left: 3vw;
+    top: 21vh;
     display: flex;
 }
 
