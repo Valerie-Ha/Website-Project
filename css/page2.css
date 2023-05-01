@@ -21,18 +21,10 @@ body {
 .nav-pic {
     position: absolute;
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
-.nav-elements {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    justify-content: center;
-    position: relative;
-    width: 400px;
-}
 
 .nav-container {
     background-color: #1fbcff;
@@ -52,9 +44,9 @@ body {
     background-color: #1fbcff;
     height: 100vh;
     position: fixed;
-    width: 30vw;
+    width: 20vw;
     top: 0px;
-    left: -30vw;
+    left: -20vw;
     z-index: 2;
     transition: transform .6s ease;
     justify-content: center;
@@ -65,11 +57,11 @@ body {
     font-family: 'Lato', sans-serif;
     bottom: 30vh;
     position: absolute;
-    font-size: 26%;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
-    width: 220px;
-    right: 20px;
+    width: 20vw;
+    right: 2vw;
     bottom: 50px;
 }
 
@@ -94,12 +86,12 @@ nav a {
 
 .nav-bar.show-nav
 {
-    transform: translateX(30vw);
+    transform: translateX(20vw);
 }
 
 .nav-container.show-nav
 {
-    transform: translateX(30vw);
+    transform: translateX(20vw);
 }
 
 
