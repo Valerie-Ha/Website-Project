@@ -21,8 +21,17 @@ body {
 .nav-pic {
     position: relative;
     display: flex;
-    width: 220px;
+    width: 15vw;
     height: auto;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 400px;
 }
 
 .nav-container {
@@ -55,7 +64,7 @@ body {
 .links {
     font-family: 'Lato', sans-serif;
     bottom: 200px;
-    position: absolute;
+    position: relative;
     font-size: 26px;
     display: flex;
     flex-direction: column;
@@ -65,8 +74,9 @@ body {
 }
 
 .link {
+    margin-top: 7vh;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 4vh;
     display:flex;
     color: #201A1C;
     padding: 5px;
@@ -94,11 +104,11 @@ nav a {
 
 
 h5 {
-    position: absolute;
-    left: 26px;
-    font-size: 27px;
-    top: 150px;
+    position: relative;
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    left: 3vw;
+    display: flex;
 }
 
 .btn3 {
@@ -242,6 +252,10 @@ h3 {
     color: white;
 }
 
+h7 {
+    position: absolute;
+    font-size: 45px;
+}
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
