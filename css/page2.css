@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     width: 20vw;
     right: 2vw;
-    bottom: 50px;
+    top: 6vh;
 }
 
 .link {
