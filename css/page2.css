@@ -36,8 +36,8 @@ body {
 
 .nav-container {
     background-color: #1fbcff;
-    width: 3vw;
-    height: 6vh;
+    width: 40px;
+    height: 35px;
     position: fixed;
     top: 100px;
     left: -.5vw;
@@ -99,7 +99,7 @@ nav a {
 
 .nav-container.show-nav
 {
-    transform: translateX(29vw);
+    transform: translateX(30vw);
 }
 
 
