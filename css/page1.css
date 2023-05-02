@@ -228,7 +228,6 @@ h1 {
     display: flex;
     position: relative;
     flex-direction: row;
-    margin-left: 30px;
     max-height: 40px;
 }
 
@@ -297,10 +296,10 @@ h2 {
 .gif {
     display: flex;
     width: auto;
-    height: 550px;
+    height: 80vh;
     position: absolute;
     z-index: -1;
-    left: 670px;
+    right: 5vw;
     top: 120px;
     background-color: #22181c;
 
@@ -317,7 +316,7 @@ p1 {
 }
 
 .work {
-    margin-top: 200px;
+    margin-top: 4vh;
     display: flex;
     position: relative;
     width: 94vw;
