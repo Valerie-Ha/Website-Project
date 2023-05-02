@@ -77,12 +77,12 @@ nav a {
 
 .nav-bar.show-nav
 {
-    transform: translateX(220px)
+    transform: translateX(220px);
 }
 
 .nav-container.show-nav
 {
-    transform: translateX(219px)
+    transform: translateX(219px);
 }
 
 
