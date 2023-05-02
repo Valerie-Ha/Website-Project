@@ -95,9 +95,11 @@ h5 {
 }
 
 .nav-pic {
-    position: relative;
+    position: absolute;
     display: flex;
+    width: 90%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .btn3 {
