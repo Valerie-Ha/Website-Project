@@ -329,13 +329,13 @@ p1 {
 
 .pic {
     width: auto;
-    height: 316px;
+    height: 49vh;
     display: flex;
 }
 
 .pic-tall {
     width: auto;
-    height: 331px;
+    height: 51vh;
     display: flex;
 }
 
@@ -375,7 +375,7 @@ p1 {
 
 .pic-tall2 {
     width: auto;
-    height: 412px;
+    height: 64vh;
     display: flex;
 }
 

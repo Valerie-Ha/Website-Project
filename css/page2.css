@@ -23,6 +23,7 @@ body {
     display: flex;
     width: 90%;
     height: auto;
+    bottom-marginL 
 }
 
 
@@ -31,7 +32,7 @@ body {
     width: 40px;
     height: 35px;
     position: fixed;
-    top: 100px;
+    top: 10vh;
     left: -.5vw;
     z-index: 5;
     border-radius: 5px;
@@ -62,13 +63,12 @@ body {
     flex-direction: column;
     width: 20vw;
     right: 2vw;
-    top: 6vh;
 }
 
 .link {
-    margin-top: 7vh;
+    margin-top: 2vh;
     position: relative;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     display:flex;
     color: #201A1C;
     padding: 5px;
