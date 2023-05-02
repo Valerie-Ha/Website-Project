@@ -56,7 +56,7 @@ body {
 
 .links {
     font-family: 'Lato', sans-serif;
-    bottom: 30vh;
+    top: 35vh;
     position: absolute;
     font-size: 2vw;
     display: flex;
@@ -66,9 +66,9 @@ body {
 }
 
 .link {
-    margin-top: 2vh;
+    margin-top: 3vh;
     position: relative;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     display:flex;
     color: #201A1C;
     padding: 5px;
@@ -99,8 +99,8 @@ h5 {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    left: 3vw;
-    top: 21vh;
+    left: 4vw;
+    top: 26vh;
     display: flex;
 }
 
