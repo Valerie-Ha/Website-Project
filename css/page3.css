@@ -20,19 +20,21 @@ body {
 }
 
 .nav-pic {
-    position: relative;
+    position: absolute;
     display: flex;
-    width: 220px;
+    width: 90%;
     height: auto;
+    margin-bottom: 10px;
 }
+
 
 .nav-container {
     background-color: #1fbcff;
     width: 40px;
     height: 35px;
     position: fixed;
-    top: 100px;
-    left: -3px;
+    top: 18vh;
+    left: -.5vw;
     z-index: 5;
     border-radius: 5px;
     justify-content: center;
@@ -44,9 +46,9 @@ body {
     background-color: #1fbcff;
     height: 100vh;
     position: fixed;
-    width: 220px;
+    width: 20vw;
     top: 0px;
-    left: -220px;
+    left: -20vw;
     z-index: 2;
     transition: transform .6s ease;
     justify-content: center;
@@ -55,19 +57,19 @@ body {
 
 .links {
     font-family: 'Lato', sans-serif;
-    bottom: 200px;
+    top: 35vh;
     position: absolute;
-    font-size: 26px;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
-    width: 220px;
-    right: 20px;
-    bottom: 50px;
+    width: 20vw;
+    right: 2vw;
 }
 
 .link {
+    margin-top: 3vh;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 3vh;
     display:flex;
     color: #201A1C;
     padding: 5px;
@@ -85,21 +87,22 @@ nav a {
 
 .nav-bar.show-nav
 {
-    transform: translateX(220px)
+    transform: translateX(20vw);
 }
 
 .nav-container.show-nav
 {
-    transform: translateX(219px)
+    transform: translateX(20vw);
 }
 
 
 h5 {
     position: absolute;
-    left: 26px;
-    font-size: 27px;
-    top: 150px;
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    left: 4vw;
+    top: 26vh;
+    display: flex;
 }
 
 .btn3 {
