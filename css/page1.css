@@ -140,11 +140,10 @@ h5 {
 }
 
 .doodle-duck {
-    position: relative;
+    position: absolute;
     display: flex;
     width: 100px;
     height: auto;
-    margin-left: 1050px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -236,7 +235,7 @@ h1 {
     max-height: 40px;
     width: 100vw;
     align-items: center;
-    left: 20vw;
+    left: 22vw;
     justify content: center;
 }
 
