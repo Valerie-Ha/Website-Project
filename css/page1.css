@@ -140,13 +140,12 @@ h5 {
 }
 
 .doodle-duck {
-    position: relative;
+    position: absolute;
     display:flex;
     width: 100px;
     height: auto;
     margin-left: 3vw;
     margin-bottom: 5px;
-    margin-top: 5px;
 }
 
 .vert {
@@ -231,7 +230,7 @@ h1 {
 
 .pg-btns {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: row;
     max-height: 40px;
 }
