@@ -140,13 +140,13 @@ h5 {
 }
 
 .doodle-duck {
-    position: absolute;
-    display:flex;
-    width: 100px;
-    height: auto;
-    right: 4vw;
-    top: .5vh;
-    margin-bottom: 2vh;
+        position: absolute;
+        display: flex;
+        width: 100px;
+        height: auto;
+        margin-left: 1050px;
+        margin-bottom: 5px;
+        margin-top: 5px;
 }
 
 .vert {
