@@ -298,15 +298,8 @@ p3 {
     flex-direction: column;
 }
 
-h8 {
-    position: relative;
-    display: flex;
-    font-size: 30px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    color: #1fbcff;
-    letter-spacing: 2px;
-    margin-bottom: 3px;
+.h8 {
+    margin-bottom: 2vh;
 }
 
 .misc-list {
