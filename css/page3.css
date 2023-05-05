@@ -305,6 +305,8 @@ p3 {
 .misc-box {
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: auto;
 }
 .misc-list {
     margin-top: 2vh;
