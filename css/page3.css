@@ -297,7 +297,20 @@ p3 {
     display: flex;
     flex-direction: column;
 }
+
+h8 {
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    color: #1fbcff;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+
 .misc-list {
+    margin-top: 2vh;
     color: #fff9f2;
     font-family: 'Lato', sans-serif;
     font-size: 19px;
