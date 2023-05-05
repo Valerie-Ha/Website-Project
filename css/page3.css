@@ -296,18 +296,44 @@ p3 {
 .miscellaneous {
     display: flex;
     flex-direction: column;
+    height: 0vh;
+    width: 90vw;
+    overflow: hidden;
+    transition: height 1s ease;
+}
+
+.miscellaneous.active {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+    overflow: hidden;
+    transition: height 1s ease;
 }
 
 .h8 {
-    margin-bottom: 2vh;
+    margin-bottom: 7vh;
+    position: relative;
+    display: flex;
 }
 
+#misc {
+    background: transparent;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
 .misc-box {
+    width: 90vw;
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 8vh;
     width: auto;
+    border-bottom: 2px solid #f01e6e;
+    align-items: center;
 }
+
 .misc-list {
     margin-top: 2vh;
     color: #fff9f2;
