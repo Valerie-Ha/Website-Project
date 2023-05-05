@@ -303,7 +303,8 @@ p3 {
 }
 
 .misc-box {
-    
+    display: flex;
+    flex-direction: column;
 }
 .misc-list {
     margin-top: 2vh;
