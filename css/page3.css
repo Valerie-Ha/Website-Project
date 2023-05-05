@@ -293,6 +293,10 @@ p3 {
     line-height: 30px;
 }
 
+.miscellaneous {
+    display: flex;
+    flex-direction: column;
+}
 .misc-list {
     color: #fff9f2;
     font-family: 'Lato', sans-serif;
