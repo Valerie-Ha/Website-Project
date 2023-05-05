@@ -304,7 +304,7 @@ p3 {
 
 .misc-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     width: auto;
 }
