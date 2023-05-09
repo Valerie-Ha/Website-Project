@@ -245,9 +245,14 @@ h3 {
     color: white;
 }
 
-h7 {
-    position: absolute;
-    font-size: 45px;
+h4 {
+    display: flex;
+    font-size: 22px;
+    color: #fff9f2;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 8px;
 }
 /* ===== Scrollbar CSS ===== */
   /* Firefox */

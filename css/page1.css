@@ -326,7 +326,7 @@ p1 {
 }
 
 .work {
-    margin-top: 11vh;
+    margin-top: 200px;
     display: flex;
     position: relative;
     width: 94vw;
@@ -339,13 +339,13 @@ p1 {
 
 .pic {
     width: auto;
-    height: 49vh;
+    height: 42.5vh;
     display: flex;
 }
 
 .pic-tall {
     width: auto;
-    height: 51vh;
+    height: 45vh;
     display: flex;
 }
 
@@ -385,7 +385,7 @@ p1 {
 
 .pic-tall2 {
     width: auto;
-    height: 64vh;
+    height: 55vh;
     display: flex;
 }
 
