@@ -277,6 +277,7 @@ h4 {
   }
 
   .info {
+    margin-top: 50vh;
     display: flex;
     margin: 0px;
     height: auto;
@@ -289,7 +290,6 @@ h4 {
 
   .text {
     position: relative;
-    margin-top: 50vh;
     color: #fff9f2;
     font-family: 'Lato', sans-serif;
     font-size: 19px;
