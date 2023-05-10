@@ -276,3 +276,24 @@ h4 {
     border: 5px double #fff9f2;
   }
 
+  .info {
+    display: flex;
+    margin: 0px;
+    height: auto;
+    overflow-x: hidden;
+    justify-content: center;
+    background-color: #201A1C;
+    position: relative;
+  }
+
+
+  .text {
+    position: relative;
+    margin-top: 50vh;
+    color: #fff9f2;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
