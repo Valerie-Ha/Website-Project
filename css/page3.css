@@ -413,6 +413,6 @@ p3 {
 
 @media (max-width: 480px) {
     * {
-        scale; .5;
+        scale: .5;
     }
 }
