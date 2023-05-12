@@ -17,7 +17,7 @@ body {
     max-width: 100vh;
     flex-direction: column;
     margin: 0;
-   
+
 }
 
 .nav-pic {
@@ -305,7 +305,7 @@ p3 {
 .miscellaneous.active {
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 30vh;
     width: 90vw;
     overflow: hidden;
     transition: height 1s ease;
@@ -412,7 +412,10 @@ p3 {
     margin-top: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
+    * {
+        scale: .9;
+    }
     .container {
         background-color: red;
     }
